@@ -7,6 +7,9 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        roboto: ["Roboto", ...fontFamily.serif],
+        lato: ["Lato", ...fontFamily.serif],
+        'IBM Plex Mono': ["IBM Plex Mono", ...fontFamily.serif],
       },
     },
   },
