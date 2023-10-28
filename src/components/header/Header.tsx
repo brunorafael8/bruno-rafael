@@ -36,7 +36,7 @@ const header = () => {
           </div>
         </div>
       </div>
-      <nav className="flex gap-[72px]">
+      <nav className="hidden gap-[72px] lg:flex">
         <div className="flex items-center">
           <div className="relative h-[31px] w-[31px]">
             <Image src="/chevron-right.svg" layout="fill" alt="chevron" />
