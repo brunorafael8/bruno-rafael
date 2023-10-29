@@ -83,11 +83,13 @@ const Header = () => {
           </div>
         </Link>
 
-        <button className="flex h-16 w-56 items-center justify-center gap-2.5 rounded-[5px] bg-rose-700 px-[39px] py-[18px]">
-          <div className="font-['Roboto'] text-2xl font-black tracking-[3.60px] text-white">
-            Let’s talk
-          </div>
-        </button>
+        <Link href="#contact" className="flex items-center">
+          <button className="flex h-16 w-56 items-center justify-center gap-2.5 rounded-[5px] bg-rose-700 px-[39px] py-[18px]">
+            <div className="font-['Roboto'] text-2xl font-black tracking-[3.60px] text-white">
+              Let’s talk
+            </div>
+          </button>
+        </Link>
       </nav>
     </div>
   );

@@ -9,7 +9,7 @@ const Footer = () => {
           Let’s talk
         </div>
       </button>
-      <div className="font-['IBM Plex Mono'] absolute bottom-0 left-0 right-0 w-auto text-center text-xs font-normal text-white lg:hidden">
+      <div className="font-['IBM Plex Mono'] absolute bottom-0 left-0 right-0 z-10 w-auto text-center text-xs font-normal text-white lg:hidden">
         BRUNO RAFAEL ©2022
       </div>
       <div className="fixed bottom-[32px] right-[32px] hidden h-[100px] w-[275px] bg-rose-700 px-[28px] py-[22px] lg:flex">
@@ -17,13 +17,13 @@ const Footer = () => {
           <div className="relative h-[49px] w-[61px]">
             <Image src="/bestDay.svg" layout="fill" alt="social-media" />
           </div>
-          <div className="flex flex-col">
-            <span className="font-['Lato'] text-lg font-normal text-white">
+          <div className="flex h-[38px] flex-col">
+            <span className="font-['Lato'] text-lg font-normal leading-4 text-white">
               Bruno Rafael
               <br />
-            </span>
-            <span className="font-['Lato'] text-sm font-normal text-black">
-              @brunorafael8
+              <span className="font-['Lato'] text-sm font-normal text-black">
+                @brunorafael8
+              </span>
             </span>
           </div>
         </div>

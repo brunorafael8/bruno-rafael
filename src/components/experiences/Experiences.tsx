@@ -227,7 +227,7 @@ const EXPERIENCES_DATA = [
 const Experiences = () => {
   return (
     <div
-      className="self flex w-full max-w-[1397px] flex-col items-start justify-start gap-[16px] self-center lg:gap-[32px]"
+      className="self mb-[600px] flex w-full max-w-[1397px] flex-col items-start justify-start gap-[16px] self-center lg:gap-[32px]"
       id="experiences"
     >
       <div className="lg: w-40 font-['Roboto'] text-xl font-black tracking-[3px] text-white lg:text-[36px]">

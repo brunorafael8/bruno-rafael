@@ -117,10 +117,10 @@ const WhoIs = () => {
           </div>
         </div>
       </div>
-      <div className="absolute left-[0] top-[80%] hidden h-[89px] w-[270px] items-center justify-start gap-1 xl:flex">
+      <div className="absolute left-[0] top-[15%] hidden h-[89px] w-[270px] items-center justify-start gap-1 xl:flex">
         <Image src="/left.svg" layout="fill" alt="left-media" />
       </div>
-      <div className="gap- absolute right-[0] top-[20%] hidden h-[89px] w-[270px] items-center justify-start xl:flex">
+      <div className="absolute right-[0] top-[5%] hidden h-[89px] w-[270px] items-center justify-start xl:flex">
         <Image src="/right.svg" layout="fill" alt="right-media" />
       </div>
     </div>
