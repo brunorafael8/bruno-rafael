@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const WhoIs = () => {
@@ -81,18 +82,38 @@ const WhoIs = () => {
             5+ years of experience{" "}
           </div>
           <div className="mt-[8px] flex h-[30px] w-[180px] items-start justify-start gap-5">
-            <div className="relative h-[30px] w-[30px]">
+            <Link
+              href="mailto:br.brunotk@gmail.com"
+              className="relative h-[30px] w-[30px]"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Image src="/Email.svg" layout="fill" alt="social-media-email" />
-            </div>
-            <div className="relative h-[30px] w-[30px]">
+            </Link>
+            <Link
+              href="https://www.instagram.com/bruno.rafael18/"
+              className="relative h-[30px] w-[30px]"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Image src="/Instagram.svg" layout="fill" alt="social-media" />
-            </div>
-            <div className="relative h-[30px] w-[30px]">
+            </Link>
+            <Link
+              href="https://twitter.com/brunorafaell8"
+              className="relative h-[30px] w-[30px]"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Image src="./TwitterX.svg" layout="fill" alt="social-media" />
-            </div>
-            <div className="relative h-[30px] w-[36px]">
+            </Link>
+            <Link
+              href="https://github.com/brunorafael8"
+              className="relative h-[30px] w-[36px]"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Image src="./GitHub.svg" layout="fill" alt="social-media" />
-            </div>
+            </Link>
           </div>
         </div>
       </div>
