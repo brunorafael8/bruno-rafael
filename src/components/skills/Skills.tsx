@@ -12,9 +12,9 @@ const Skills = () => {
           <div className="flex items-center justify-start gap-1.5">
             <div className="relative h-[30px] w-[30px]">
               <Image
-                src="/skills/javascript.svg"
+                src="/skills/JavaScript.svg"
                 layout="fill"
-                alt="javascript"
+                alt="JavaScript"
               />
             </div>
             <div className="h-[9px] w-[74px] font-['Roboto'] text-[10px] font-black uppercase tracking-wider text-white">
@@ -24,9 +24,9 @@ const Skills = () => {
           <div className="flex items-center justify-start gap-1.5">
             <div className="relative h-[30px] w-[30px]">
               <Image
-                src="/skills/Typescript.svg"
+                src="/skills/TypeScript.svg"
                 layout="fill"
-                alt="typescript"
+                alt="TypeScript"
               />
             </div>
             <div className="h-[9px] w-[74px] font-['Roboto'] text-[10px] font-black uppercase tracking-wider text-white">
@@ -59,7 +59,7 @@ const Skills = () => {
           </div>
           <div className="flex items-center justify-start gap-1.5">
             <div className="relative h-[30px] w-[30px]">
-              <Image src="/skills/Html.svg" layout="fill" alt="Html" />
+              <Image src="/skills/HTML.svg" layout="fill" alt="Html" />
             </div>
             <div className="h-[9px] w-[74px] font-['Roboto'] text-[10px] font-black uppercase tracking-wider text-white">
               HTML
@@ -109,7 +109,7 @@ const Skills = () => {
           </div>
           <div className="flex h-[30px] w-[110px] items-center justify-start gap-1.5">
             <div className="relative h-[30px] w-[30px]">
-              <Image src="/skills/Css.svg" layout="fill" alt="Css" />
+              <Image src="/skills/CSS.svg" layout="fill" alt="Css" />
             </div>
             <div className="h-[9px] w-[74px] font-['Roboto'] text-[10px] font-black uppercase tracking-wider text-white">
               CSS
