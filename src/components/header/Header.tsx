@@ -58,30 +58,30 @@ const Header = () => {
         </div>
       </div>
       <nav className="hidden gap-[72px] lg:flex">
-        <div className="flex items-center">
+        <Link href="#about" className="flex items-center">
           <div className="relative h-[31px] w-[31px]">
             <Image src="/chevron-right.svg" layout="fill" alt="chevron" />
           </div>
           <div className="w-[59.30px] font-['Roboto'] text-lg font-medium uppercase text-white">
             About
           </div>
-        </div>
-        <div className="flex items-center">
-          <div className="relative h-[31px] w-[31px]">
-            <Image src="/chevron-right.svg" layout="fill" alt="chevron" />
-          </div>
-          <div className="w-[116px] font-['Roboto'] text-lg font-medium uppercase text-white">
-            Experiences
-          </div>
-        </div>
-        <div className="flex items-center">
+        </Link>
+        <Link href="#skills" className="flex items-center">
           <div className="relative h-[31px] w-[31px]">
             <Image src="/chevron-right.svg" layout="fill" alt="chevron" />
           </div>
           <div className="w-[63px] font-['Roboto'] text-lg font-medium uppercase text-white">
             Skills
           </div>
-        </div>
+        </Link>
+        <Link href="#experiences" className="flex items-center">
+          <div className="relative h-[31px] w-[31px]">
+            <Image src="/chevron-right.svg" layout="fill" alt="chevron" />
+          </div>
+          <div className="w-[116px] font-['Roboto'] text-lg font-medium uppercase text-white">
+            Experiences
+          </div>
+        </Link>
 
         <button className="flex h-16 w-56 items-center justify-center gap-2.5 rounded-[5px] bg-rose-700 px-[39px] py-[18px]">
           <div className="font-['Roboto'] text-2xl font-black tracking-[3.60px] text-white">
