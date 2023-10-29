@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const header = () => {
+const WhoIs = () => {
   return (
     <div className="relative hidden w-[804px] flex-col lg:flex">
       <div className="relative flex">
@@ -70,6 +70,4 @@ const header = () => {
   );
 };
 
-header.propTypes = {};
-
-export default header;
+export default WhoIs;

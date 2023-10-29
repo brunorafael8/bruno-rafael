@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-start justify-start gap-[17px]">
+    <div className="flex flex-col items-start justify-start gap-[17px] lg:hidden">
       <div className="h-[22.45px] w-20 font-['Roboto'] text-xl font-black tracking-[3px] text-white">
         ABOUT
       </div>
@@ -17,6 +17,5 @@ const About = () => {
   );
 };
 
-About.propTypes = {};
 
 export default About;
