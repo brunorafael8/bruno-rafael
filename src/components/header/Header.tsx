@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const header = () => {
+const Header = () => {
   return (
     <div className="flex w-full max-w-[1397px] flex-col items-center justify-between lg:flex-row">
       <div className="h-9 w-[350px] font-['Roboto'] text-[32px] font-black leading-[50px] tracking-[4.80px] text-rose-700 lg:h-[100px] lg:w-[200px] lg:text-[40px] lg:tracking-[6px]">
@@ -72,6 +72,4 @@ const header = () => {
   );
 };
 
-header.propTypes = {};
-
-export default header;
+export default Header;
