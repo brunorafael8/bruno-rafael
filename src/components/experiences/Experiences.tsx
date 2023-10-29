@@ -2,7 +2,7 @@ import React from "react";
 
 const Experiences = () => {
   return (
-    <div className="flex flex-col items-start justify-end gap-4">
+    <div className="flex flex-col items-start justify-end gap-4 lg:hidden">
       <div className="h-[21px] w-40 font-['Roboto'] text-xl font-black tracking-[3px] text-white">
         EXPERIENCES
       </div>
