@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="fixed bottom-[32px] right-[32px] hidden h-[100px] w-[275px] bg-rose-700 px-[28px] py-[22px] lg:flex">
         <div className="flex w-[199px] items-start">
           <div className="relative h-[49px] w-[61px]">
-            <Image src="./BestDay.svg" layout="fill" alt="social-media" />
+            <Image src="/BestDay.svg" layout="fill" alt="social-media" />
           </div>
           <div className="flex flex-col">
             <span className="font-['Lato'] text-lg font-normal text-white">

@@ -45,7 +45,7 @@ const Header = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image src="./TwitterX.svg" layout="fill" alt="social-media" />
+            <Image src="/TwitterX.svg" layout="fill" alt="social-media" />
           </Link>
           <Link
             href="https://github.com/brunorafael8"
@@ -53,7 +53,7 @@ const Header = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Image src="./GitHub.svg" layout="fill" alt="social-media" />
+            <Image src="/GitHub.svg" layout="fill" alt="social-media" />
           </Link>
         </div>
       </div>

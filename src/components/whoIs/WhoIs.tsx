@@ -104,7 +104,7 @@ const WhoIs = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <Image src="./TwitterX.svg" layout="fill" alt="social-media" />
+              <Image src="/TwitterX.svg" layout="fill" alt="social-media" />
             </Link>
             <Link
               href="https://github.com/brunorafael8"
@@ -112,16 +112,16 @@ const WhoIs = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <Image src="./GitHub.svg" layout="fill" alt="social-media" />
+              <Image src="/GitHub.svg" layout="fill" alt="social-media" />
             </Link>
           </div>
         </div>
       </div>
       <div className="absolute left-[0] top-[80%] hidden h-[89px] w-[270px] items-center justify-start gap-1 lg:flex">
-        <Image src="./left.svg" layout="fill" alt="left-media" />
+        <Image src="/left.svg" layout="fill" alt="left-media" />
       </div>
       <div className="gap- absolute right-[0] top-[20%] hidden h-[89px] w-[270px] items-center justify-start lg:flex">
-        <Image src="./right.svg" layout="fill" alt="right-media" />
+        <Image src="/right.svg" layout="fill" alt="right-media" />
       </div>
     </div>
   );
