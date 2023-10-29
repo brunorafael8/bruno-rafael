@@ -3,4 +3,5 @@ export * from "./whoIs";
 export * from "./about";
 export * from "./experiences";
 export * from "./skills";
+export * from "./Contact";
 export * from "./footer";
