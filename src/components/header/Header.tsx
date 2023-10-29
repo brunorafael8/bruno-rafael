@@ -18,7 +18,7 @@ const header = () => {
           <br />
           React DEveloper
           <br />
-          200px Node developer
+          Node developer
           <br />
         </p>
         <div className="flex items-center gap-[30px]">
